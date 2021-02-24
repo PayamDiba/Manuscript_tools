@@ -1,0 +1,5 @@
+#! /bin/sh
+# tests/testexec.  Generated from testexec.in by configure.
+# Wraps seq2expr to ensure we use the one we compiled, not something somewhere else on the path
+
+exec '/shared-mounts/sinhas/Payam/gemstat_benchmarking/NEW_sampler/GEM/tmp/src/'"${1}" ${2+"$@"}
