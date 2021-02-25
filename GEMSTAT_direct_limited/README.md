@@ -14,12 +14,9 @@ The program needs GSL (GNU Scientific Library). After installing GSL, go to the 
 make
 ```
 
-The main executable will be generated:
-src/seq2expr: the main program to fit a sequence-to-expression model
+The main executable (the main program to fit a sequence-to-expression model) will be generated at ```src/seq2expr```. Type the program name without parameters will print usage information.
 
-Type the program name without parameters will print usage information.
---------------------------------------------------------------------------
-PROGRAM USAGE
+## PROGRAM USAGE
 
 The program takes as input: sequences, the expression profiles of these sequences, the PWMs of the relevant TFs and the expression profiles of these TFs, and computes the paramaters of the underlying sequence-to-expression model as well as the predicted expression patterns.
 
