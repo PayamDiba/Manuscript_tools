@@ -1,6 +1,6 @@
-GEMSTAT - Limited-Contact Activation: Thermodynamics-based model of transcriptional regulation by enhancers.
+## GEMSTAT - Limited-Contact Activation: Thermodynamics-based model of transcriptional regulation by enhancers.
 
-Authors:
+# Authors:
 Originally developed by Xin He <xinhe2@illinois.edu>
 Some features added and code was refactored by Bryan Lunt <bjlunt2@illinois.edu>
 Limited-contact direct activation scheme was added by Payam Dibaeinia <dibaein2@illinois.edu>
