@@ -1,17 +1,18 @@
-## GEMSTAT - Limited-Contact Activation: Thermodynamics-based model of transcriptional regulation by enhancers.
+# GEMSTAT - Limited-Contact Activation: Thermodynamics-based model of transcriptional regulation by enhancers.
 
-#### Authors:
+### Authors:
 Originally developed by Xin He <xinhe2@illinois.edu>
 
 Some features added and code was refactored by Bryan Lunt <bjlunt2@illinois.edu>
 
 Limited-contact direct activation scheme was added by Payam Dibaeinia <dibaein2@illinois.edu>
 
-INSTALLATION
-
+### INSTALLATION
 The program needs GSL (GNU Scientific Library). After installing GSL, go to the main distribution directory, and type:
+```
 ./configure
 make
+```
 
 The main executable will be generated:
 src/seq2expr: the main program to fit a sequence-to-expression model
