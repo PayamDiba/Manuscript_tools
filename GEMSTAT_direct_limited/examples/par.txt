@@ -1,0 +1,12 @@
+{
+	"tfs":{
+		"dl":{"annot_thresh":0.9,"maxbind":0.109017,"alpha_a":5.000863,"alpha_r":1},
+		"tw":{"annot_thresh":0.9,"maxbind":1.152883,"alpha_a":9.580012,"alpha_r":1},
+		"sn":{"annot_thresh":0.9,"maxbind":25.526849,"alpha_a":1,"alpha_r":23.326335}
+	},
+	"inter":{"dl:dl":2.074848, "dl:tw":38.755775, "tw:tw":0.442386, "sn:sn":86.406061},
+	"qbtm":[0.000503],
+	"enh":[
+		{"pi":1e-50,"beta":1}
+	]
+}

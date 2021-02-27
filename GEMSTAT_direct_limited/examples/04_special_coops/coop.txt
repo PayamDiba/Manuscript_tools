@@ -1,3 +1,0 @@
-bcd	bcd	SIMPLE	20
-hb	kni	HALF_DIRECTIONAL	50	*	+
-kni	kni	DIMER	15	+	-

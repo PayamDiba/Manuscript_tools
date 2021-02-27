@@ -1,0 +1,12 @@
+{
+	"tfs":{
+		"dl":{"annot_thresh":0,"maxbind":1,"alpha_a":1,"alpha_r":0},
+		"tw":{"annot_thresh":0,"maxbind":1,"alpha_a":1,"alpha_r":0},
+		"sn":{"annot_thresh":0,"maxbind":1,"alpha_a":0,"alpha_r":1}
+	}
+	,"inter":{"dl:dl":1, "dl:tw":1, "tw:tw":1, "sn:sn":1},
+	"qbtm":[1],
+	"enh":[
+		{"pi":0,"beta":0}
+	]
+}

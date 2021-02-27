@@ -1,0 +1,4 @@
+dl	dl	SIMPLE	50
+dl	tw	SIMPLE	50
+tw	tw	SIMPLE	50
+sn	sn	SIMPLE	50

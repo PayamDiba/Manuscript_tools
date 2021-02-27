@@ -53,19 +53,19 @@ The program takes the following arguments as input:
 
 * -rt: the distance threshold of short range repression in ChrMod_Unlimited and ChrMod_Unlimited. Default = 150 bp.
 
-* -lower_bound: the lower bounds for all free parameters. See ```example\lower.par``` for an example of such file.  
+* -lower_bound: the lower bounds for all free parameters. See ```examples\lower.par``` for an example of such file.  
 
-* -upper_bound: the upper bounds for all free parameters. See ```example\upper.par``` for an example of such file.  
+* -upper_bound: the upper bounds for all free parameters. See ```examples\upper.par``` for an example of such file.  
 
-* -ff: a file that determines free and fixed (to initial value) parameters during training. See ```example\free_fix.par``` for an example of such file.  
+* -ff: a file that determines free and fixed (to initial value) parameters during training. See ```examples\free_fix.par``` for an example of such file.  
 
 * -onebeta: whether use the same scaling for all input enhancers (true), or use different scalings (false).
 
 
 ## Example
-We provided an example dataset in ```example``` directory (data obtained from [here](https://elifesciences.org/articles/08445)). The data consists of expressions driven by 38 enhancers in 17 trans conditions regulated by three TFs. Here is an example command-line for training a GEMSTAT model with neighborhood remodeling short-range repression, limited-contact direct activation and cooperative interactions between four pairs of TFs.
+We provided an example dataset in ```examples``` directory (data obtained from [here](https://elifesciences.org/articles/08445)). The data consists of expressions driven by 38 enhancers in 17 trans conditions regulated by three TFs. Here is an example command-line for training a GEMSTAT model with neighborhood remodeling short-range repression, limited-contact direct activation and cooperative interactions between four pairs of TFs.
 
-{PATH-TO}/src/seq2expr -s {PATH-TO}/example/seq.fa -e {PATH-TO}/example/expr.tab -m {PATH-TO}/example/factors.wtmx -f {PATH-TO}/example/factor_expr.tab -i {PATH-TO}/example/factor_info.txt -c {PATH-TO}/example/coop.txt -lower_bound {PATH-TO}/example/lower.par -upper_bound {PATH-TO}/example/upper.par -a {PATH-TO}/example/annotations.txt -o ChrMod_Limited -mc 1 -rt 100 -ff {PATH-TO}/example/free_fix.txt -onebeta true -oo SSE -na 5 -p {PATH-TO}/example/par.txt -fo {PATH-TO}/output/predictions.txt
+{PATH-TO}/src/seq2expr -s {PATH-TO}/examples/seq.fa -e {PATH-TO}/examples/expr.tab -m {PATH-TO}/examples/factors.wtmx -f {PATH-TO}/examples/factor_expr.tab -i {PATH-TO}/examples/factor_info.txt -c {PATH-TO}/examples/coop.txt -a {PATH-TO}/examples/annotations.txt -lower_bound {PATH-TO}/examples/lower.par -upper_bound {PATH-TO}/examples/upper.par -o ChrMod_Limited -mc 1 -rt 100 -ff {PATH-TO}/examples/free_fix.txt -onebeta true -oo SSE -na 5 -p {PATH-TO}/examples/par.txt -fo {PATH-TO}/output/predictions.txt
 
 
 In order to train an ensemble of models, prepare an ensemble of initial parameters and run the above command once for each parameter setting using ```-p``` flag.
