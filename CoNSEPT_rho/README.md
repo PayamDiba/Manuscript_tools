@@ -3,7 +3,7 @@ A Convolutional Neural Network-based Sequence-to-Expression Prediction Tool. Thi
 
 
 ## Usage
-For general purpose usages see the [main version](https://github.com/PayamDiba/CoNSEPT) providing more detailed explanations for all model arguments.
+For general purpose applications see the [main version](https://github.com/PayamDiba/CoNSEPT) providing more detailed explanations for all model arguments.
 
 Here is an example command-line to train the model provided in the current repo:
 
