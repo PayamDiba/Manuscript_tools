@@ -62,9 +62,6 @@ The program takes the following arguments as input:
 * -onebeta: whether use the same scaling for all input enhancers (true), or use different scalings (false).
 
 
-
-The data/ directory contains the example files.
-
 ## Example
 We provided an example dataset in ```example``` directory (data obtained from [here](https://elifesciences.org/articles/08445)). The data consists of expressions driven by 38 enhancers in 17 trans conditions regulated by three TFs. Here is an example command-line for training a GEMSTAT model with neighborhood remodeling short-range repression, limited-contact direct activation and cooperative interactions between four pairs of TFs.
 
