@@ -1,4 +1,4 @@
-#CoNSEPT
+# CoNSEPT
 A Convolutional Neural Network-based Sequence-to-Expression Prediction Tool. This repo contains the CoNSEPT model we used to model the expression of rhomboid gene (rho) in Drosophila. This version has more or less the same architecture as the [main version](https://github.com/PayamDiba/CoNSEPT) but it can be trained only on the particular data set we provided in ```data``` (data obtained from [here](https://elifesciences.org/articles/08445)).
 
 
